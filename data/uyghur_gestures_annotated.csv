@@ -1,0 +1,191 @@
+﻿Column1,Subject,t1_ph,t2_ph,label_ph,t1_wd,t2_wd,label_wd,t1_st,t2_st,label_st,seg_type,t1_ax,t2_ax,final,num_syls,gesture_syl,is_onset,closed_syl,dict_stress,has_suffix
+0,Mustafa,3.321820112,3.369066056,l,3.217485322,3.424575945,tili,2.8187,7.8175,uyghur tili güzel ??? bir til nahayiti mol bay bir til,consonant,3.367,3.401,1,2,2,1,0,1,1
+1,Mustafa,3.732642501,3.822814437,y,3.697202274,4.063009402,güzel,2.8187,7.8175,uyghur tili güzel ??? bir til nahayiti mol bay bir til,vowel,3.734,3.767,0,2,1,0,0,?,0
+2,Mustafa,5.3987,5.497589715,o,5.2387,5.7487,mol,2.8187,7.8175,uyghur tili güzel ??? bir til nahayiti mol bay bir til,vowel,5.4,5.434,1,1,1,0,1,1,1
+3,Mustafa,7.0587,7.1587,a,7.0087,7.252988252,bay,2.8187,7.8175,uyghur tili güzel ??? bir til nahayiti mol bay bir til,vowel,7.067,7.101,1,1,1,0,1,1,1
+4,Mustafa,93.752,93.782,r,93.612,93.912,azraq,92.39264521,95.82959789,emdi girammatikisi belki azraq tes bir til bolishi mumkin mumkin,consonant,93.767,93.8,1,2,1,1,1,2,0
+5,Mustafa,100.3353,100.5713074,ŋ,99.9653,100.5713074,qarang,99.58587283,104.7452884,lékin qarang siz öydin chiqtingiz ma hazir mana shu resmiy özingizning ana tilidek sözleysizde,consonant,100.534,100.567,1,2,2,0,1,1,1
+6,Mustafa,100.8953,100.9453,d,100.8353,101.0853,öydin,99.58587283,104.7452884,lékin qarang siz öydin chiqtingiz ma hazir mana shu resmiy özingizning ana tilidek sözleysizde,consonant,100.934,100.967,1,2,2,1,1,1,1
+7,Mustafa,101.7253,101.8153,a,101.6853,101.9553,hazir,99.58587283,104.7452884,lékin qarang siz öydin chiqtingiz ma hazir mana shu resmiy özingizning ana tilidek sözleysizde,vowel,101.734,101.767,0,2,1,0,0,2,0
+8,Mustafa,102.3553,102.3953,r,102.3553,102.7453,resmiy,99.58587283,104.7452884,lékin qarang siz öydin chiqtingiz ma hazir mana shu resmiy özingizning ana tilidek sözleysizde,consonant,102.367,102.4,0,2,1,1,1,?,0
+9,Mustafa,102.4753,102.6553,s,102.3553,102.7453,resmiy,99.58587283,104.7452884,lékin qarang siz öydin chiqtingiz ma hazir mana shu resmiy özingizning ana tilidek sözleysizde,consonant,102.634,102.667,0,2,1,0,1,?,0
+10,Mustafa,103.1353,103.2053,z,103.0553,103.4653,özingizning,99.58587283,104.7452884,lékin qarang siz öydin chiqtingiz ma hazir mana shu resmiy özingizning ana tilidek sözleysizde,consonant,103.167,103.201,0,4,2,1,1,1,1
+11,Mustafa,106.2159,106.2859,i,106.1859,106.9259,tirishsila,105.3258037,109.9621,eger adem démek tirishsila emdi elwette uningghimu til dégen'ge bir talant kétidu,vowel,106.266,106.3,0,4,1,0,0,2,1
+12,Mustafa,107.7859,107.8159,w,107.6659,107.9859,elwette,105.3258037,109.9621,eger adem démek tirishsila emdi elwette uningghimu til dégen'ge bir talant kétidu,consonant,107.8,107.833,0,3,2,1,1,2,0
+13,Mustafa,108.2959,108.3759,t,108.2959,108.4459,til,105.3258037,109.9621,eger adem démek tirishsila emdi elwette uningghimu til dégen'ge bir talant kétidu,consonant,108.3,108.333,1,1,1,1,1,1,0
+14,Mustafa,110.9721,111.0021,i,110.9121,111.0721,bir,110.1321,113.0721901,u talantmu muhim bir nerse andin tirishchanliqmu bek muhim,vowel,111,111.033,1,1,1,0,1,1,0
+15,Mustafa,111.7921,112.0521,,111.7921,112.0521,,110.1321,113.0721901,u talantmu muhim bir nerse andin tirishchanliqmu bek muhim,consonant,112.033,112.066,,,,,,,
+16,Mustafa,113.0721,117.053,,113.0721,117.053,,110.1321,113.0721901,u talantmu muhim bir nerse andin tirishchanliqmu bek muhim,consonant,116.566,116.6,,,,,,,
+17,Mustafa,113.0721,117.053,,113.0721,117.053,,110.1321,113.0721901,u talantmu muhim bir nerse andin tirishchanliqmu bek muhim,consonant,116.733,116.766,,,,,,,
+18,Mustafa,113.0721,117.053,,113.0721,117.053,,110.1321,113.0721901,u talantmu muhim bir nerse andin tirishchanliqmu bek muhim,consonant,117,117.033,,,,,,,
+19,Mustafa,117.053,117.193,t͡ʃ,117.053,117.413,choqum,117.053,118.7030465,choqum öginimenghu dep he,consonant,117.166,117.2,0,2,1,1,0,2,0
+20,Mustafa,117.353,117.413,m,117.053,117.413,choqum,117.053,118.7030465,choqum öginimenghu dep he,consonant,117.366,117.4,1,2,2,0,1,2,0
+21,Mustafa,117.6253741,117.793,ø,117.6253741,118.322488,öginimenghu,117.053,118.7030465,choqum öginimenghu dep he,vowel,117.666,117.7,0,5,1,0,0,1,1
+22,Mustafa,117.823,117.853,i,117.6253741,118.322488,öginimenghu,117.053,118.7030465,choqum öginimenghu dep he,vowel,117.833,117.866,0,5,3,0,0,1,1
+23,Mustafa,117.953,118.043,ɛ,117.6253741,118.322488,öginimenghu,117.053,118.7030465,choqum öginimenghu dep he,consonant,117.966,118,0,5,4,0,1,1,1
+24,Mustafa,127.4448,127.4748,m,127.0605562,127.4748,alim,126.4048,128.3002,oqughuchi alim bolar,consonant,127.466,127.5,1,2,2,0,1,?,0
+25,Mustafa,135.6425,135.8225,s,135.4225,135.9055,kelsun,134.9925,135.9055,chongdin kelsun,consonant,135.666,135.7,1,2,2,1,1,1,1
+26,Mustafa,182.0475,190.999,,182.0475,190.999,,182.0475,189.5580787,,consonant,189.8,189.833,,,,,,,
+27,Mustafa,191.239,191.269,i,190.999,191.269,dunyadiki,190.9984257,192.9805495,dunyadiki eng dangliq uniwérsitétning birsi denge bu,vowel,191.266,191.3,1,4,4,0,0,2,1
+28,Gulnisa,12.1586,12.22282811,n,11.8986,12.63273223,ögense,10.6086,14.6849,shu men deymen uyghur tilini ögense bashqa tillarghimu yol échilidu,consonant,12.166,12.2,0,3,2,0,1,1,1
+29,Gulnisa,13.4086,13.45268137,t,13.4086,13.8086,tillarghimu,10.6086,14.6849,shu men deymen uyghur tilini ögense bashqa tillarghimu yol échilidu,consonant,13.433,13.466,0,4,1,1,1,1,1
+30,Gulnisa,15.9466,16.0066,i,15.33662116,16.3666,özbékchinimu,14.9866,17.46276827,mesilen özbékchinimu chüshinish asan,vowel,15.966,16,0,5,4,0,0,1,1
+31,Gulnisa,17.9597,18.0697,a,17.7097,18.17899698,qazaq,17.7097,18.89290416,qazaq qirghiz,vowel,18,18.033,1,2,2,0,1,2,0
+32,Gulnisa,18.43446872,18.5283773,r,18.17899698,18.89260217,qirghiz,17.7097,18.89290416,qazaq qirghiz,consonant,18.5,18.566,0,2,1,0,1,2,0
+33,Gulnisa,19.6939,19.7639,m,19.34507325,20.11956662,türkmen,19.3439,20.82385563,türkmen türk,consonant,19.733,19.766,1,2,1,1,1,?,0
+34,Gulnisa,20.3139,20.49814726,y,20.11956662,20.82430287,türk,19.3439,20.82385563,türkmen türk,vowel,20.4,20.433,1,1,1,0,1,1,0
+35,Gulnisa,21.3984,21.44142893,p,21.3984,21.7584,pirsent,21.0884,24.5922,emdi yüz pirsent chüshenmisimu lékin chüshineleydu,consonant,21.4,21.433,0,2,1,1,1,2,0
+36,Gulnisa,21.8284,21.8984,ʃ,21.7584,22.5384,chüshenmisimu,21.0884,24.5922,emdi yüz pirsent chüshenmisimu lékin chüshineleydu,consonant,21.833,21.866,0,5,2,1,1,2,1
+37,Gulnisa,23.5084,23.6284,n,23.2684,23.6284,lékin,21.0884,24.5922,emdi yüz pirsent chüshenmisimu lékin chüshineleydu,consonant,23.6,23.633,1,2,2,0,1,2,0
+38,Gulnisa,42.6258,42.6658,l,42.2958,43.1058,chüshineleysiz,41.7458,44.40610167,he'e chüshineleysiz yeni qazaqchini chüshineleysiz,consonant,42.633,42.666,0,5,4,1,1,2,1
+39,Gulnisa,43.4958,43.5758,z,43.3858,43.8458,qazaqchini,41.7458,44.40610167,he'e chüshineleysiz yeni qazaqchini chüshineleysiz,consonant,43.5,43.533,0,4,2,1,1,2,1
+40,Gulnisa,43.7558,43.7858,i,43.3858,43.8458,qazaqchini,41.7458,44.40610167,he'e chüshineleysiz yeni qazaqchini chüshineleysiz,vowel,43.766,43.8,0,4,1,0,0,2,1
+41,Gulnisa,50.0329,50.1029,t,49.7129,50.30499244,qazaqistangha,49.3929,53.0937,shu qazaqistangha barghanda ular sizge rusche sözlidimu,consonant,50.066,50.1,0,5,4,1,1,2,1
+42,Gulnisa,51.41853628,51.90408789,,51.41853628,51.90408789,,49.3929,53.0937,shu qazaqistangha barghanda ular sizge rusche sözlidimu,consonant,51.666,51.7,,,,,,,
+43,Gulnisa,52.4829,52.5329,t͡ʃ,52.3429,52.5829,rusche,49.3929,53.0937,shu qazaqistangha barghanda ular sizge rusche sözlidimu,consonant,52.5,52.533,1,2,2,1,0,1,1
+44,Gulnisa,53.0937,60.3035,,53.0937,60.3035,,53.0937,54.0875,,consonant,59.166,59.2,,,,,,,
+45,Gulnisa,61.14460213,61.2435,a,61.14460213,62.06608057,amérikiliq,60.3035,64.6401,kéyin siz men amérikiliq dep uyghurche sözlisingiz ular heyran qalghandu,vowel,61.233,61.266,0,5,1,0,0,5,1
+46,Gulnisa,62.4035,62.4835,j,62.3735,62.6635,uyghurche,60.3035,64.6401,kéyin siz men amérikiliq dep uyghurche sözlisingiz ular heyran qalghandu,consonant,62.466,62.5,0,3,1,0,1,1,1
+47,Gulnisa,63.3935,63.5135,ɛ,63.3335,63.7035,heyran,60.3035,64.6401,kéyin siz men amérikiliq dep uyghurche sözlisingiz ular heyran qalghandu,consonant,63.466,63.5,1,2,1,0,1,,0
+48,Gulnisa,121.567,121.687,i,121.107,121.747,oqutquchimu,120.477,121.7473571,hem zalim oqutquchimu,vowel,121.666,121.7,0,5,4,0,0,2,1
+49,Gulnisa,125.1211,125.4411,a,125.0911,125.5811,zalim,125.0911,126.4048,zalim bolsa,vowel,125.333,125.366,0,2,1,0,0,,0
+50,Gulnisa,125.5511,125.5811,m,125.0911,125.5811,zalim,125.0911,126.4048,zalim bolsa,consonant,125.566,125.6,1,2,2,0,1,,0
+51,Gulnisa,129.1251,129.2051,t,128.9751,129.5251,oqutquchimu,128.4325653,131.1867,zalim oqutquchimu lazim he shuni untup qalmanglar,consonant,129.2,129.233,0,5,2,0,1,2,1
+52,Gulnisa,129.3951,129.4451,m,128.9751,129.5251,oqutquchimu,128.4325653,131.1867,zalim oqutquchimu lazim he shuni untup qalmanglar,consonant,129.4,129.433,1,5,5,1,0,2,1
+53,Gulnisa,129.5551,129.7151,a,129.5251,129.9351,lazim,128.4325653,131.1867,zalim oqutquchimu lazim he shuni untup qalmanglar,vowel,129.6,129.633,0,2,1,0,0,2,0
+54,Gulnisa,151.0936,151.1336,r,151.0236,151.5836,pursetliri,149.9052647,153.0836,shundaq bir pursetliri bar mektepler bar,consonant,151.133,151.166,0,4,1,0,1,,1
+55,Gulnisa,151.2736,151.4036,t,151.0236,151.5836,pursetliri,149.9052647,153.0836,shundaq bir pursetliri bar mektepler bar,consonant,151.366,151.4,0,4,2,0,1,,1
+56,Gulnisa,152.5836,152.7036,r,152.0136,152.7036,mektepler,149.9052647,153.0836,shundaq bir pursetliri bar mektepler bar,consonant,152.6,152.633,1,3,3,0,1,2,1
+57,Gulnisa,155.6435,155.7235,ɛ,155.1735,155.9035,mektepler,153.5630226,157.5035,emdi qirghizistanda bolsa mektepler bolmisimu ata-anilar,consonant,155.7,155.733,1,3,3,0,1,2,1
+58,Gulnisa,156.0935,156.2035,o,155.9835,156.6735,bolmisimu,153.5630226,157.5035,emdi qirghizistanda bolsa mektepler bolmisimu ata-anilar,vowel,156.1,156.133,0,4,1,0,1,1,1
+59,Gulnisa,157.0935,157.1935,l,156.6735,157.5035,ata-anilar,153.5630226,157.5035,emdi qirghizistanda bolsa mektepler bolmisimu ata-anilar,consonant,157.1,157.133,1,5,5,1,1,5,1
+60,Gulnisa,157.8814,157.9414,u,157.7714,157.9414,shu,157.5035,157.7717005,,vowel,157.9,157.933,1,1,1,0,0,1,0
+61,Gulnisa,159.7521,159.8221,j,159.6640168,160.0821,uyghurche,159.1115516,162.7021,shu uyghurche gep qilsun balilargha özbékistandimu shu,consonant,159.766,159.8,0,3,1,0,1,1,1
+62,Gulnisa,163.5002,163.6302,k,163.3602,163.6302,bek,163.1503309,167.3302,bu bek muhim ma bizmu men özemni baya misal qilip éytip berdimghu öyde,consonant,163.6,163.633,1,1,1,0,1,1,0
+63,Gulnisa,164.2302,164.3602,b,164.2302,164.6302,bizmu,163.1503309,167.3302,bu bek muhim ma bizmu men özemni baya misal qilip éytip berdimghu öyde,consonant,164.333,164.366,0,2,1,1,1,1,0
+64,Gulnisa,165.5102,165.6102,s,165.3902,165.7402,misal,163.1503309,167.3302,bu bek muhim ma bizmu men özemni baya misal qilip éytip berdimghu öyde,consonant,165.566,165.6,1,2,2,1,1,,1
+65,Gulnisa,166.1202,166.2002,e,166.1202,166.3702,éytip,163.1503309,167.3302,bu bek muhim ma bizmu men özemni baya misal qilip éytip berdimghu öyde,vowel,166.133,166.166,0,2,1,0,1,1,1
+66,Gulnisa,168.5533,168.6633,p,168.5533,168.9933,peqet,167.6135222,170.2233,ata-anilar bizni peqet uyghurche sözletküzetti,consonant,168.633,168.666,0,2,1,1,0,2,0
+67,Gulnisa,171.27,171.4,z,171.2,171.4,biz,170.8895737,175.8151836,shunga biz hemmimiz hemmimizning alte bala öyde hemmimizning uyghurchisi yaxshi,consonant,171.366,171.4,1,1,1,0,1,1,0
+68,Gulnisa,171.76,171.87,m,171.4,172.1,hemmimiz,170.8895737,175.8151836,shunga biz hemmimiz hemmimizning alte bala öyde hemmimizning uyghurchisi yaxshi,consonant,171.766,171.8,1,3,3,1,1,1,1
+69,Gulnisa,172.1,172.16,,172.1,172.16,,170.8895737,175.8151836,shunga biz hemmimiz hemmimizning alte bala öyde hemmimizning uyghurchisi yaxshi,consonant,172.133,172.166,,,,,,,0
+70,Gulnisa,172.46,172.54,i,172.16,172.9,hemmimizning,170.8895737,175.8151836,shunga biz hemmimiz hemmimizning alte bala öyde hemmimizning uyghurchisi yaxshi,vowel,172.533,172.566,0,4,3,0,1,1,1
+71,Gulnisa,172.9,173.03,a,172.9,173.2,alte,170.8895737,175.8151836,shunga biz hemmimiz hemmimizning alte bala öyde hemmimizning uyghurchisi yaxshi,vowel,172.933,172.966,0,2,1,0,1,1,0
+72,Gulnisa,174.55,174.6,i,174.25,174.78,hemmimizning,170.8895737,175.8151836,shunga biz hemmimiz hemmimizning alte bala öyde hemmimizning uyghurchisi yaxshi,vowel,174.566,174.6,1,4,4,0,1,1,1
+73,Gulnisa,176.6421,176.7021,ɛ,176.5221,177.1121,kelgüside,176.3227131,177.8221,mana kelgüside esqatti,consonant,176.7,176.733,0,4,1,0,1,1,1
+74,Gulnisa,180.04,180.11,ʁ,179.96,180.5,uyghurche,178.3196669,184.3241313,köpliri manga dégenti men ashu uyghurche shu aspirantorgha kirip he shu dissértatsiyisi,consonant,180.066,180.1,0,3,2,0,1,1,1
+75,Gulnisa,181.08,181.14,p,180.93,181.69,aspirantorgha,178.3196669,184.3241313,köpliri manga dégenti men ashu uyghurche shu aspirantorgha kirip he shu dissértatsiyisi,consonant,181.133,181.166,0,5,2,1,0,,1
+76,Gulnisa,182.5093097,182.91,ɛ,182.4660466,182.91,he,178.3196669,184.3241313,köpliri manga dégenti men ashu uyghurche shu aspirantorgha kirip he shu dissértatsiyisi,consonant,182.666,182.7,1,1,1,0,0,1,0
+77,Gulnisa,183.29,183.34,i,183.11,184.3241313,dissértatsiyisi,178.3196669,184.3241313,köpliri manga dégenti men ashu uyghurche shu aspirantorgha kirip he shu dissértatsiyisi,vowel,183.3,183.333,0,6,1,0,0,,1
+78,Gulnisa,185.3416,185.4416,q,185.3416,185.7516,qilghanda,184.7722137,188.3416,mushundaq ishlarni qilghanda uyghurchini oqup nege baratti bu qiz deyti,consonant,185.4,185.433,0,3,1,1,1,,1
+79,Gulnisa,186.7616,186.9216,ɛ,186.6916,187.0216,nege,184.7722137,188.3416,mushundaq ishlarni qilghanda uyghurchini oqup nege baratti bu qiz deyti,consonant,186.866,186.9,0,2,1,0,0,,0
+80,Gulnisa,188.7221,188.7921,k,188.6321,188.8621,lékin,188.3416,188.6323812,,consonant,188.766,188.8,1,2,2,1,1,2,0
+81,Gulnisa,189.1421,189.2221,m,189.0721,189.5421,amérikigha,188.6323812,190.9227153,lékin mana amérikigha kélip ders ötiwatimen mana,consonant,189.166,189.2,0,5,2,1,0,2,1
+82,Gulnisa,189.6821,189.7421,p,189.5421,189.7421,kélip,188.6323812,190.9227153,lékin mana amérikigha kélip ders ötiwatimen mana,consonant,189.733,189.766,1,2,2,0,1,1,1
+83,Gulnisa,192.5386,192.6386,ʃ,192.4486,192.9086,pishanigha,192.1865,192.449031,,consonant,192.566,192.6,0,4,2,1,0,,1
+84,Gulnisa,192.8686,192.9086,a,192.4486,192.9086,pishanigha,192.1865,192.449031,,vowel,192.9,192.933,1,4,4,0,0,,1
+85,Gulnisa,194.9314,195.0014,p,194.7314,195.0014,oqup,194.3708317,198.7214,ashundaq oqup qoysanglar bir küni emes bir küni shu paydisi tégip qalidu,consonant,194.933,194.966,1,2,2,0,1,1,1
+86,Gulnisa,196.1714,196.2514,k,196.1714,196.3614,küni,194.3708317,198.7214,ashundaq oqup qoysanglar bir küni emes bir küni shu paydisi tégip qalidu,consonant,196.2,196.233,0,2,1,1,0,1,1
+87,Gulnisa,196.7214,196.8114,k,196.7214,196.9014,küni,194.3708317,198.7214,ashundaq oqup qoysanglar bir küni emes bir küni shu paydisi tégip qalidu,consonant,196.733,196.766,0,2,1,1,0,1,1
+88,Gulnisa,197.0114,197.1722312,u,196.9014,197.1722312,shu,194.3708317,198.7214,ashundaq oqup qoysanglar bir küni emes bir küni shu paydisi tégip qalidu,vowel,197.166,197.2,1,1,1,0,0,1,0
+89,Gulnisa,199.1321,199.2421,z,199.0321,199.2421,biz,199.0317335,202.0621,biz bilmeymiz kelgüside mesilen siler,consonant,199.2,199.233,1,1,1,0,1,1,0
+90,Gulnisa,200.2121,200.2921,ɛ,200.1221,200.9421,kelgüside,199.0317335,202.0621,biz bilmeymiz kelgüside mesilen siler,consonant,200.233,200.266,0,1,1,0,1,1,1
+91,Gulnisa,200.6621,200.9421,ɛ,200.1221,200.9421,kelgüside,199.0317335,202.0621,biz bilmeymiz kelgüside mesilen siler,consonant,200.666,200.7,1,4,4,0,1,1,1
+92,Gulnisa,201.4321,201.4721,l,201.1921,201.5821,mesilen,199.0317335,202.0621,biz bilmeymiz kelgüside mesilen siler,consonant,201.433,201.466,1,3,3,1,1,3,0
+93,Gulnisa,201.9121,202.0621,r,201.5821,202.0621,siler,199.0317335,202.0621,biz bilmeymiz kelgüside mesilen siler,consonant,201.966,202,1,2,2,0,1,2,0
+94,Gulnisa,202.3643,202.5543,b,202.3643,202.7443,bizning,202.0621,202.3649543,,consonant,202.5,202.533,0,2,1,1,1,1,1
+95,Gulnisa,202.8543,202.9043,ɛ,202.7443,203.2643,teghdirimiz,202.3649543,208.549,bizning teghdirimiz qandaq bolar belkim xudayim buyrusa weten azad bolap mutexesisler kérek bop qalar shundaqmu,consonant,202.866,202.9,0,4,1,0,1,,1
+96,Gulnisa,203.1543,203.2043,i,202.7443,203.2643,teghdirimiz,202.3649543,208.549,bizning teghdirimiz qandaq bolar belkim xudayim buyrusa weten azad bolap mutexesisler kérek bop qalar shundaqmu,vowel,203.166,203.2,1,4,4,0,1,,1
+97,Gulnisa,204.3443,204.4143,k,204.1743,204.5143,belkim,202.3649543,208.549,bizning teghdirimiz qandaq bolar belkim xudayim buyrusa weten azad bolap mutexesisler kérek bop qalar shundaqmu,consonant,204.4,204.433,1,2,2,1,1,1,0
+98,Gulnisa,204.7543,204.7843,i,204.5143,204.8143,xudayim,202.3649543,208.549,bizning teghdirimiz qandaq bolar belkim xudayim buyrusa weten azad bolap mutexesisler kérek bop qalar shundaqmu,vowel,204.766,204.8,1,3,3,0,1,2,1
+99,Gulnisa,206.8843,206.9643,s,206.3943,207.0543,mutexesisler,202.3649543,208.549,bizning teghdirimiz qandaq bolar belkim xudayim buyrusa weten azad bolap mutexesisler kérek bop qalar shundaqmu,consonant,206.933,206.966,0,5,4,0,1,,1
+100,Gulnisa,209.5781,209.6681,b,209.5781,210.0881,bashqurush,208.9481,210.6681,shu wetenni bashqurush kérek,consonant,209.633,209.666,0,3,1,1,1,,1
+101,Gulnisa,211.6937,211.7337,j,211.6337,212.0237,uyghurche,211.1437391,213.1637,ishlarni uyghurche yürgüzüsh kérek,consonant,211.7,211.733,0,3,1,0,1,1,1
+102,Gulnisa,214.0628,214.1728,u,214.0628,214.3728,untup,213.48272,215.92825,shunga tilni untup qalmasliq kérek emdi til dégen,vowel,214.133,214.166,0,2,1,0,1,1,1
+103,Gulnisa,216.5464,216.5964,r,216.1864,216.6964,uyghurlarning,216.1862836,218.8748263,uyghurlarning emdi medeniyetning muhim bir parchisi,consonant,216.566,216.6,0,4,3,0,1,1,1
+104,Gulnisa,216.8364,216.8664,d,216.6964,216.8964,emdi,216.1862836,218.8748263,uyghurlarning emdi medeniyetning muhim bir parchisi,consonant,216.866,216.9,1,2,2,1,0,1,0
+105,Gulnisa,217.0664,217.1464,ɛ,216.8964,217.620944,medeniyetning,216.1862836,218.8748263,uyghurlarning emdi medeniyetning muhim bir parchisi,consonant,217.1,217.133,0,4,2,0,0,,1
+106,Gulnisa,217.8164,217.8764,m,217.8164,218.1564,muhim,216.1862836,218.8748263,uyghurlarning emdi medeniyetning muhim bir parchisi,consonant,217.833,217.866,0,2,1,1,0,2,0
+107,Gulnisa,218.0864,218.1564,m,217.8164,218.1564,muhim,216.1862836,218.8748263,uyghurlarning emdi medeniyetning muhim bir parchisi,consonant,218.133,218.166,1,2,2,0,1,2,0
+108,Gulnisa,218.3964,218.4264,p,218.3964,218.8764,parchisi,216.1862836,218.8748263,uyghurlarning emdi medeniyetning muhim bir parchisi,consonant,218.4,218.433,0,3,1,1,1,,1
+109,Gulnisa,218.8764,219.6846,,218.8764,219.6846,,218.8748263,219.6846,,consonant,219.666,219.7,,,,,,,
+110,Gulnisa,220.1146,220.1646,i,219.8746,220.5468764,bilmise,219.6846,223.1391,til bilmise démek bu medeniyetni yoqatti dégen gep,vowel,220.133,220.166,0,3,2,0,0,1,1
+111,Gulnisa,221.4646,221.5246,n,221.2246,221.8945166,medeniyetni,219.6846,223.1391,til bilmise démek bu medeniyetni yoqatti dégen gep,consonant,221.466,221.5,0,5,3,1,0,,1
+112,Gulnisa,221.8945166,222.1346,,221.8945166,222.1346,,219.6846,223.1391,til bilmise démek bu medeniyetni yoqatti dégen gep,consonant,222,222.033,,,,,,,
+113,Gulnisa,222.2446,222.3446,q,222.1346,222.5646,yoqatti,219.6846,223.1391,til bilmise démek bu medeniyetni yoqatti dégen gep,consonant,222.3,222.333,0,3,2,1,1,,1
+114,Gulnisa,223.7466,223.8666,t,223.7466,224.0166,til,223.5066,231.4567368,eger til bilmise sen sen kim dése men uyghur dese uyghurche bilmise u özini qandaq uyghur dep éytalaydu tilni bilish kérek,consonant,223.766,223.8,1,1,1,1,1,1,0
+115,Gulnisa,225.2966,225.3566,ɛ,225.1966,225.4666,sen,223.5066,231.4567368,eger til bilmise sen sen kim dése men uyghur dese uyghurche bilmise u özini qandaq uyghur dep éytalaydu tilni bilish kérek,consonant,225.3,225.333,1,1,1,0,1,1,0
+116,Gulnisa,226.0466,226.1166,n,225.9466,226.1166,men,223.5066,231.4567368,eger til bilmise sen sen kim dése men uyghur dese uyghurche bilmise u özini qandaq uyghur dep éytalaydu tilni bilish kérek,consonant,226.066,226.1,1,1,1,0,1,1,0
+117,Gulnisa,226.2966,226.3966,ʁ,226.1466,226.4766,uyghur,223.5066,231.4567368,eger til bilmise sen sen kim dése men uyghur dese uyghurche bilmise u özini qandaq uyghur dep éytalaydu tilni bilish kérek,consonant,226.333,226.366,1,2,2,0,1,1,0
+118,Gulnisa,226.6766,226.7466,ɛ,226.4766,226.7466,dese,223.5066,231.4567368,eger til bilmise sen sen kim dése men uyghur dese uyghurche bilmise u özini qandaq uyghur dep éytalaydu tilni bilish kérek,consonant,226.7,226.733,1,2,2,0,0,1,1
+119,Gulnisa,227.7666,228.0066,,227.7666,228.0066,,223.5066,231.4567368,eger til bilmise sen sen kim dése men uyghur dese uyghurche bilmise u özini qandaq uyghur dep éytalaydu tilni bilish kérek,consonant,227.833,227.866,,,,,,,
+120,Gulnisa,228.1266,228.2166,z,228.0966,228.3066,özini,223.5066,231.4567368,eger til bilmise sen sen kim dése men uyghur dese uyghurche bilmise u özini qandaq uyghur dep éytalaydu tilni bilish kérek,consonant,228.166,228.2,0,3,2,1,0,1,1
+121,Gulnisa,228.5266,228.5766,a,228.3066,228.6966,qandaq,223.5066,231.4567368,eger til bilmise sen sen kim dése men uyghur dese uyghurche bilmise u özini qandaq uyghur dep éytalaydu tilni bilish kérek,vowel,228.566,228.6,1,2,2,0,1,1,0
+122,Gulnisa,229.01726,229.0883351,r,228.6966,229.0883351,uyghur,223.5066,231.4567368,eger til bilmise sen sen kim dése men uyghur dese uyghurche bilmise u özini qandaq uyghur dep éytalaydu tilni bilish kérek,consonant,229.033,229.066,1,2,2,0,1,1,0
+123,Gulnisa,229.0883351,229.4966,,229.0883351,229.4966,,223.5066,231.4567368,eger til bilmise sen sen kim dése men uyghur dese uyghurche bilmise u özini qandaq uyghur dep éytalaydu tilni bilish kérek,consonant,229.366,229.4,,,,,,,
+124,Gulnisa,229.5766,229.6766,p,229.4966,229.6766,dep,223.5066,231.4567368,eger til bilmise sen sen kim dése men uyghur dese uyghurche bilmise u özini qandaq uyghur dep éytalaydu tilni bilish kérek,consonant,229.633,229.666,1,1,1,0,1,1,1
+125,Gulnisa,230.5666,230.6466,l,230.3266,230.7166,tilni,223.5066,231.4567368,eger til bilmise sen sen kim dése men uyghur dese uyghurche bilmise u özini qandaq uyghur dep éytalaydu tilni bilish kérek,consonant,230.633,230.666,1,2,1,0,1,1,1
+126,Gulnisa,232.7862,233.0062,ʃ,232.7862,233.0562,shu,232.1962,234.0262,eng muhimi shu tilni untumanglar,consonant,232.833,232.866,1,1,1,1,0,1,0
+127,Gulnisa,233.1762,233.2862,i,233.0562,233.2862,tilni,232.1962,234.0262,eng muhimi shu tilni untumanglar,vowel,233.2,233.233,1,2,2,0,0,1,1
+128,Gulnisa,235.3538,235.6638,,235.3538,235.6638,,234.5634473,239.6338,mushu etraptiki mushu dostunglarghimu uyghurche ögitinglar uyghurlar toghriliq köprek sözlep béringlar,consonant,235.533,235.566,,,,,,,
+129,Gulnisa,237.6838,237.8038,a,237.3738,237.8338,uyghurlar,234.5634473,239.6338,mushu etraptiki mushu dostunglarghimu uyghurche ögitinglar uyghurlar toghriliq köprek sözlep béringlar,vowel,237.766,237.8,1,3,3,0,1,1,1
+130,Gulnisa,238.0838,238.1838,q,237.8338,238.1838,toghriliq,234.5634473,239.6338,mushu etraptiki mushu dostunglarghimu uyghurche ögitinglar uyghurlar toghriliq köprek sözlep béringlar,consonant,238.133,238.166,1,3,3,0,1,1,1
+131,Gulnisa,242.2964,256.658937,,242.2964,256.658937,,242.2962552,255.1675,,consonant,242.733,242.766,,,,,,,
+132,Elise,25.58178891,25.66722433,a,25.4955,26.2455,qazaqistangha,24.7555,31.01598022,mesilen men qazaqistangha barghandichu negila barsam almati shehiride nege barsam uyghurche gep qilimen,vowel,25.6,25.633,0,5,1,0,0,2,1
+133,Elise,26.6455,26.6955,d,26.2455,26.99540397,barghandichu,24.7555,31.01598022,mesilen men qazaqistangha barghandichu negila barsam almati shehiride nege barsam uyghurche gep qilimen,consonant,26.633,26.666,0,4,3,1,0,1,1
+134,Elise,27.15917652,27.43633666,ɛ,26.99540397,27.5855,negila,24.7555,31.01598022,mesilen men qazaqistangha barghandichu negila barsam almati shehiride nege barsam uyghurche gep qilimen,consonant,27.166,27.2,0,3,1,0,0,,1
+135,Elise,27.8055,27.8655,a,27.5855,27.9155,barsam,24.7555,31.01598022,mesilen men qazaqistangha barghandichu negila barsam almati shehiride nege barsam uyghurche gep qilimen,vowel,27.8,27.833,1,2,2,0,1,1,1
+136,Elise,27.9955,28.1155,l,27.9155,28.4455,almati,24.7555,31.01598022,mesilen men qazaqistangha barghandichu negila barsam almati shehiride nege barsam uyghurche gep qilimen,consonant,28.033,28.066,0,3,1,0,1,,0
+137,Elise,28.2755,28.3655,t,27.9155,28.4455,almati,24.7555,31.01598022,mesilen men qazaqistangha barghandichu negila barsam almati shehiride nege barsam uyghurche gep qilimen,consonant,28.233,28.266,1,3,3,1,0,,0
+138,Elise,29.0955,29.2755,ɛ,28.9955,29.4055,nege,24.7555,31.01598022,mesilen men qazaqistangha barghandichu negila barsam almati shehiride nege barsam uyghurche gep qilimen,consonant,29.166,29.2,0,2,1,0,0,2,0
+139,Elise,29.4355,29.5055,a,29.4055,29.84059425,barsam,24.7555,31.01598022,mesilen men qazaqistangha barghandichu negila barsam almati shehiride nege barsam uyghurche gep qilimen,vowel,29.466,29.5,0,2,1,0,1,1,1
+140,Elise,29.63897841,29.75378743,a,29.4055,29.84059425,barsam,24.7555,31.01598022,mesilen men qazaqistangha barghandichu negila barsam almati shehiride nege barsam uyghurche gep qilimen,vowel,29.666,29.7,1,2,2,0,1,1,1
+141,Elise,30.1255,30.2555,u,30.1255,30.4955,uyghurche,24.7555,31.01598022,mesilen men qazaqistangha barghandichu negila barsam almati shehiride nege barsam uyghurche gep qilimen,vowel,30.166,30.2,0,3,1,0,1,1,1
+142,Elise,30.4555,30.4955,ɛ,30.1255,30.4955,uyghurche,24.7555,31.01598022,mesilen men qazaqistangha barghandichu negila barsam almati shehiride nege barsam uyghurche gep qilimen,consonant,30.433,30.466,1,3,3,0,0,1,1
+143,Elise,34.2257,34.2557,h,34.2257,34.46576073,heyran,33.94313877,34.225961,laughter,consonant,33.166,33.2,0,2,1,1,1,,0
+144,Elise,34.2257,34.2557,h,34.2257,34.46576073,heyran,33.94313877,34.225961,laughter,consonant,33.566,33.6,0,2,1,1,1,,0
+145,Elise,39.5457,39.7257,z,39.4657,39.7257,biz,34.225961,42.15009689,heyran qaliti qarshi terep he qazaq tilini bilse qachaqche bilse andin biz héliqi him him pikir almashturalaymiz,consonant,39.633,39.666,1,1,1,0,1,1,0
+146,Elise,40.04069279,40.1557,m,40.04069279,40.1557,him,34.225961,42.15009689,heyran qaliti qarshi terep he qazaq tilini bilse qachaqche bilse andin biz héliqi him him pikir almashturalaymiz,consonant,40.033,40.066,1,1,1,0,1,1,0
+147,Elise,40.6257,40.6757,k,40.4757,40.8057,pikir,34.225961,42.15009689,heyran qaliti qarshi terep he qazaq tilini bilse qachaqche bilse andin biz héliqi him him pikir almashturalaymiz,consonant,40.633,40.666,1,2,2,1,1,2,0
+148,Elise,40.9557,41.0157,m,40.8057,42.15009689,almashturalaymiz,34.225961,42.15009689,heyran qaliti qarshi terep he qazaq tilini bilse qachaqche bilse andin biz héliqi him him pikir almashturalaymiz,consonant,40.966,41,0,6,2,1,1,1,1
+149,Elise,41.1757,41.2557,t,40.8057,42.15009689,almashturalaymiz,34.225961,42.15009689,heyran qaliti qarshi terep he qazaq tilini bilse qachaqche bilse andin biz héliqi him him pikir almashturalaymiz,consonant,41.166,41.2,0,6,3,1,0,1,1
+150,Elise,44.5704,44.6804,ʃ,44.4704,45.2704,chüshineleymen,44.1704,48.483,he'e menmu chüshineleymen alaning tilini ularning tilini chüshineleymen,consonant,44.566,44.6,0,5,2,1,0,1,1
+151,Elise,44.8204,44.9204,l,44.4704,45.2704,chüshineleymen,44.1704,48.483,he'e menmu chüshineleymen alaning tilini ularning tilini chüshineleymen,consonant,44.8,44.833,0,5,4,1,1,1,1
+152,Elise,47.2604,47.3104,t,47.2604,47.6704,tilini,44.1704,48.483,he'e menmu chüshineleymen alaning tilini ularning tilini chüshineleymen,consonant,47.233,47.266,0,2,1,1,1,1,1
+153,Elise,47.7604,47.8104,y,47.6704,48.48265587,chüshineleymen,44.1704,48.483,he'e menmu chüshineleymen alaning tilini ularning tilini chüshineleymen,vowel,47.766,47.8,0,5,1,0,1,1,1
+154,Elise,56.5405,56.63593392,m,56.0805,56.7405,ürümchidimu,53.09433343,58.561,ow elwette mangimighu ashu ürümchidimu shu rusche sözleydu,consonant,56.533,56.566,1,5,5,1,0,,1
+155,Elise,67.39794281,75.1135,,67.39794281,75.1135,,66.1656857,67.39914234,he'e heyran qalghan,consonant,67.733,67.766,,,,,,,
+156,Elise,95.3596,95.4596,i,95.3296,95.8296,bizgimu,95.3296,99.36935963,bizgimu bizgimu tes bilinidu mesilen mangimu tes bilinetti bashta,vowel,95.4,95.433,0,3,1,0,1,1,1
+157,Elise,96.1296,96.1696,b,96.1296,96.5496,bizgimu,95.3296,99.36935963,bizgimu bizgimu tes bilinidu mesilen mangimu tes bilinetti bashta,consonant,96,96.033,0,3,1,1,1,1,1
+158,Elise,96.2296,96.3496,z,96.1296,96.5496,bizgimu,95.3296,99.36935963,bizgimu bizgimu tes bilinidu mesilen mangimu tes bilinetti bashta,consonant,96.266,96.3,0,3,1,0,1,1,1
+159,Elise,96.5496,96.6296,t,96.5496,96.8696,tes,95.3296,99.36935963,bizgimu bizgimu tes bilinidu mesilen mangimu tes bilinetti bashta,consonant,96.566,96.6,1,1,1,1,1,1,0
+160,Elise,96.9296,97.0496,l,96.8696,97.3896,bilinidu,95.3296,99.36935963,bizgimu bizgimu tes bilinidu mesilen mangimu tes bilinetti bashta,consonant,96.966,97,0,4,2,1,0,1,1
+161,Elise,97.3296,97.3596,d,96.8696,97.3896,bilinidu,95.3296,99.36935963,bizgimu bizgimu tes bilinidu mesilen mangimu tes bilinetti bashta,consonant,97.333,97.366,1,4,4,1,0,1,1
+162,Elise,97.5096,97.5396,l,97.3896,97.7096,mesilen,95.3296,99.36935963,bizgimu bizgimu tes bilinidu mesilen mangimu tes bilinetti bashta,consonant,97.5,97.533,1,3,3,1,1,3,0
+163,Elise,97.7096,97.7396,m,97.7096,97.9596,mangimu,95.3296,99.36935963,bizgimu bizgimu tes bilinidu mesilen mangimu tes bilinetti bashta,consonant,97.7,97.733,0,3,1,1,0,1,1
+164,Elise,114.4925,114.6025,u,113.7525,114.6025,jahilliqmu,113.7525,117.0531047,jahilliqmu bek muhim jahilliq choqum muhim,vowel,114.533,114.566,1,4,4,0,0,,1
+165,Elise,115.5725,115.6425,l,115.1925,115.8325,jahilliq,113.7525,117.0531047,jahilliqmu bek muhim jahilliq choqum muhim,consonant,115.566,115.6,1,3,3,1,1,,0
+166,Elise,115.6925,115.8325,q,115.1925,115.8325,jahilliq,113.7525,117.0531047,jahilliqmu bek muhim jahilliq choqum muhim,consonant,115.7,115.733,1,3,3,0,1,,0
+167,Elise,115.9014334,116.0825,t͡ʃ,115.9014334,116.3825,choqum,113.7525,117.0531047,jahilliqmu bek muhim jahilliq choqum muhim,consonant,115.966,116,0,2,1,1,0,2,0
+168,Elise,116.1225,116.1525,q,115.9014334,116.3825,choqum,113.7525,117.0531047,jahilliqmu bek muhim jahilliq choqum muhim,consonant,116.133,116.166,1,2,2,1,1,2,0
+169,Elise,118.5151,118.6051,q,118.3551,118.7551,choqum,118.3551,120.1426,choqum öginimen bel baghlap,consonant,118.533,118.566,1,2,2,1,1,2,0
+170,Elise,118.8951,118.9351,i,118.7551,119.2151,öginimen,118.3551,120.1426,choqum öginimen bel baghlap,vowel,118.9,118.933,0,4,2,0,0,1,1
+171,Elise,119.6051,119.7651,ʁ,119.4751,120.1426,baghlap,118.3551,120.1426,choqum öginimen bel baghlap,consonant,119.666,119.7,0,2,1,0,1,1,1
+172,Elise,120.1426,124.341648,,120.1426,124.341648,,120.1426,120.3037307,,consonant,120.533,120.566,,,,,,,
+173,Elise,120.1426,124.341648,,120.1426,124.341648,,120.1426,120.3037307,,consonant,120.833,120.866,,,,,,,
+174,Elise,120.1426,124.341648,,120.1426,124.341648,,120.1426,120.3037307,,consonant,121,121.033,,,,,,,
+175,Elise,120.1426,124.341648,,120.1426,124.341648,,120.1426,120.3037307,,consonant,121.366,121.4,,,,,,,
+176,Elise,124.341648,124.6167,o,124.341648,124.9767,oqutquchi,124.341648,128.2694,oqutquchi zalim bolsa oqughuchi alim bolar,vowel,123.2,123.233,0,4,1,0,0,2,0
+177,Elise,124.6567,124.6867,u,124.341648,124.9767,oqutquchi,124.341648,128.2694,oqutquchi zalim bolsa oqughuchi alim bolar,vowel,124.666,124.7,0,4,2,0,1,2,0
+178,Elise,243.6392,243.7492,u,243.5192,243.7492,ashu,243.51726,246.5611147,ashu méning uyghurlargha deydighinim shu oxshash,vowel,243.6,243.633,1,2,2,0,0,1,0
+179,Elise,244.0492,244.1792,u,244.0492,244.9992,uyghurlargha,243.51726,246.5611147,ashu méning uyghurlargha deydighinim shu oxshash,vowel,244.1,244.133,0,4,1,0,1,1,1
+180,Elise,244.6692,244.9992,a,244.0492,244.9992,uyghurlargha,243.51726,246.5611147,ashu méning uyghurlargha deydighinim shu oxshash,vowel,244.833,244.866,1,4,4,0,0,1,1
+181,Elise,245.0892,245.1792,j,244.9992,245.7092,deydighinim,243.51726,246.5611147,ashu méning uyghurlargha deydighinim shu oxshash,consonant,245.133,245.166,0,4,1,0,1,1,1
+182,Elise,245.9192,246.0292,o,245.9192,246.5592,oxshash,243.51726,246.5611147,ashu méning uyghurlargha deydighinim shu oxshash,vowel,245.966,246,0,2,1,0,1,1,1
+183,Elise,248.6794931,248.8355494,a,248.289265,249.3037822,unutmanglar,246.8957,255.5161517,shu uyghur tilini unutmanglar a baliliringlargha ögitip qoyunglar andin héliqi atalmish chet'elliklerge shu,vowel,248.666,248.7,0,4,3,0,1,,1
+184,Elise,249.5527843,249.6063692,b,249.5527843,250.4968476,baliliringlargha,246.8957,255.5161517,shu uyghur tilini unutmanglar a baliliringlargha ögitip qoyunglar andin héliqi atalmish chet'elliklerge shu,consonant,249.466,249.5,0,6,1,1,0,1,1
+185,Elise,250.7605676,250.820827,i,250.4968476,250.9314539,ögitip,246.8957,255.5161517,shu uyghur tilini unutmanglar a baliliringlargha ögitip qoyunglar andin héliqi atalmish chet'elliklerge shu,vowel,250.733,250.766,1,3,3,0,1,1,1
+186,Elise,254.235939,254.3303454,t͡ʃ,254.235939,255.2565729,chet'elliklerge,246.8957,255.5161517,shu uyghur tilini unutmanglar a baliliringlargha ögitip qoyunglar andin héliqi atalmish chet'elliklerge shu,consonant,254.166,254.2,0,5,1,1,1,3,1
+187,Elise,254.4524552,254.5050842,t,254.235939,255.2565729,chet'elliklerge,246.8957,255.5161517,shu uyghur tilini unutmanglar a baliliringlargha ögitip qoyunglar andin héliqi atalmish chet'elliklerge shu,consonant,254.466,254.5,0,5,1,0,1,3,1
+188,Elise,254.7459394,254.8047601,i,254.235939,255.2565729,chet'elliklerge,246.8957,255.5161517,shu uyghur tilini unutmanglar a baliliringlargha ögitip qoyunglar andin héliqi atalmish chet'elliklerge shu,vowel,254.766,254.8,0,5,3,0,1,3,1
+189,Elise,254.9493963,255.0051211,l,254.235939,255.2565729,chet'elliklerge,246.8957,255.5161517,shu uyghur tilini unutmanglar a baliliringlargha ögitip qoyunglar andin héliqi atalmish chet'elliklerge shu,consonant,254.966,255,0,5,4,1,1,3,1
