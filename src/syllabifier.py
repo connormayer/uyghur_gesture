@@ -47,9 +47,6 @@ class GenericAutomaton():
              for q in self.all_states() if self.init(q) != self.sr.gfalse]
         )
 
-    #####################
-    # QUESTIONS 1 and 2 #
-    #####################
     def forward(self, sequence, q):
         if not sequence:
             return self.init(q)
@@ -66,75 +63,6 @@ class GenericAutomaton():
             for q in self.all_states() if self.fin(q) != self.sr.gfalse]
         )
 
-# Corresponds to the PFSA used in examples in class
-gfsa1 = GenericAutomaton(
-    starts = [("Edge", 1.0)],
-    ends = [("Edge", 0.5)],
-    deltas = [
-        ("Edge", 'a', 0.015, "Edge"),       ("Internal", 'a', 0.042, "Edge"),
-        ("Edge", 'i', 0.015, "Edge"),       ("Internal", 'e', 0.056, "Edge"),
-                                            ("Internal", 'i', 0.014, "Edge"),
-                                            ("Internal", 'n', 0.098, "Edge"),
-                                            ("Internal", 't', 0.084, "Edge"),
-                                            ("Internal", 's', 0.154, "Edge"), 
-        ("Edge", 'a', 0.103, "Internal"),   ("Internal", 'a', 0.085, "Internal"),
-        ("Edge", 'e', 0.029, "Internal"),   ("Internal", 'e', 0.149, "Internal"),
-        ("Edge", 'i', 0.088, "Internal"),   ("Internal", 'i', 0.149, "Internal"),
-        ("Edge", 'n', 0.029, "Internal"),   ("Internal", 'n', 0.085, "Internal"),
-        ("Edge", 't', 0.103, "Internal"),   ("Internal", 't', 0.021, "Internal"),
-        ("Edge", 's', 0.118, "Internal"),   ("Internal", 's', 0.064, "Internal")
-    ],
-    semiring = DoubleSemiring()
-)
-
-# Corresponds to the FSA over the alphabet {C,V} that requires either two Cs or
-# two Vs (or both), now expressed as a generic automaton that has booleans as
-# its values
-gfsa2 = GenericAutomaton(
-    starts = [(40, True)],
-    ends = [(43, True)],
-    deltas = [
-        (40, 'C', True, 40),      (41, 'C', True, 43),
-        (40, 'V', True, 40),      (42, 'V', True, 43),
-        (40, 'C', True, 41),      (43, 'C', True, 43),
-        (40, 'V', True, 42),      (43, 'V', True, 43)
-    ],
-    semiring = BoolSemiring()
-)
-
-##############
-# QUESTION 3 #
-##############
-
-class CostSemiring(Semiring):
-    gtrue = 0
-    gfalse = inf
-
-    def gconj(self, x, y):
-        return x + y
-
-    def gdisj(self, x, y):
-        return min(x, y)
-
-# You don't need to modify gfsa3
-gfsa3 = GenericAutomaton(
-    starts = [(10, 0)],
-    ends = [(12, 0)],
-    deltas = [
-        (10, 'C', 5, 10),
-        (10, 'V', 4, 10),
-        (10, 'C', 0, 11),
-        (11, 'C', 0, 12),
-        (12, 'C', 7, 12),
-        (12, 'V', 8, 12)
-    ],
-    semiring = CostSemiring()
-)
-
-##############
-# QUESTION 4 #
-##############
-
 class SetOfStringsSemiring(Semiring):
     gtrue = ['']
     gfalse = []
@@ -145,24 +73,38 @@ class SetOfStringsSemiring(Semiring):
     def gdisj(self, x, y):
         return x + y
 
-##############
-# QUESTION 5 #
-##############
+def get_syllabifier():
 
-# Add your definition of the FST here
-gfsa4 = GenericAutomaton(
-    starts = [(0, ['']), (1, []), (2, [])],
-    ends = [(0, ['']), (1, ['']), (2, ['t'])],
-    deltas = [
-        (0, 'n', ['n'], 0),
-        (0, 't', ['t'], 0),
-        (0, 'a', ['a'], 1),
-        (1, 'a', ['a'], 1),
-        (1, 'n', ['n'], 0),
-        (1, 't', [''], 2),
-        (2, 'n', ['tn'], 0),
-        (2, 't', ['tt'], 0),
-        (2, 'a', ['ta', 'Ta'], 1)
-    ],
-    semiring = SetOfStringsSemiring()
-)
+    vowels = ['a', 'e', 'i', 'o', 'u', 'ü', 'ö', 'é']
+    consonants = [
+        'p', 'b', 't', 'd', 'k', 'g', 'q', 'G', 'C', 'j', 'x', 
+        'r', 'z', 'Z', 's', 'S', 'f', 'N', 'l', 'm', 'n', 'h', "'",
+        'y', 'w'
+    ]
+
+    # Add your definition of the FST here
+    deltas = ([('start', v, [v], 'vowel') for v in vowels] +
+              [('start', c, [c], 'onset') for c in consonants] +
+
+              [('onset', v, [v], 'vowel') for v in vowels] +
+
+              [('vowel', c, ['.{}'.format(c)], 'onset') for c in consonants] +
+              [('vowel', c, [c], 'coda1') for c in consonants] +
+              [('vowel', v, ['.{}'.format(v)], 'vowel') for v in vowels] +
+              [('vowel', '-', ['.'], 'start')] +
+
+              [('coda1', c, [c], 'coda2') for c in consonants] +
+              [('coda1', c, ['.{}'.format(c)], 'onset') for c in consonants] +
+              [('coda1', '-', ['.'], 'start')] +
+
+              [('coda2', c, ['.{}'.format(c)], 'onset') for c in consonants] +
+              [('coda2', '-', ['.'], 'start')])
+
+    uyghur_syllabifier = GenericAutomaton(
+        starts = [('start', ['']), ('onset', []), ('vowel', []), ('coda1', []), ('coda2', [])],
+        ends = [('start', []), ('onset', []), ('vowel', ['']), ('coda1', ['']), ('coda2', [''])],
+        deltas = deltas,
+        semiring = SetOfStringsSemiring()
+    )
+
+    return uyghur_syllabifier

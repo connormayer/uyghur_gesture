@@ -7,11 +7,13 @@ import os
 import re
 import time
 
-def load_transducer(fst_path):
+FST_PATH = "/mnt/e/git_repos/apertium-uig/dev/ortho/ara-lat.hfst"
+
+def load_transducer():
 	"""
 	Loads the orthographic fst we use to convert Perso-Arabic to Latin
 	""" 
-	istr = hfst.HfstInputStream(fst_path)
+	istr = hfst.HfstInputStream(FST_PATH)
 	transducer = istr.read_all()[0]
 	transducer.lookup_optimize()
 	return transducer
@@ -34,11 +36,9 @@ def convert_sentence(transducer, sentence):
 	parsed_words = [convert_word(transducer, x) for x in words]
 	return ' '.join(parsed_words)
 
-fst_path = "/mnt/e/git_repos/apertium-uig/dev/ortho/ara-lat.hfst"
-data = pd.read_csv('uyghur_gesture_youtube.csv')
-transducer = load_transducer(fst_path)
-data['label_wd'] = data.label_wd.apply(lambda x: convert_word(transducer, x))
-data['label_st'] = data.label_st.apply(lambda x: convert_sentence(transducer, x))
-data.to_csv('uyghur_gesture_youtube_lat.csv')
-
-breakpoint()
+if __name__ == "__main__":
+	data = pd.read_csv('uyghur_gesture_youtube.csv')
+	transducer = load_transducer(fst_path)
+	data['label_wd'] = data.label_wd.apply(lambda x: convert_word(transducer, x))
+	data['label_st'] = data.label_st.apply(lambda x: convert_sentence(transducer, x))
+	data.to_csv('uyghur_gesture_youtube_lat.csv')
