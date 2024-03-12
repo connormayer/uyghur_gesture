@@ -3,6 +3,8 @@ import re
 import syllabifier
 import tgt
 
+# Fix ng issue
+
 simple_ortho_map = {
 	'ng': 'N',
 	'sh': 'S',
