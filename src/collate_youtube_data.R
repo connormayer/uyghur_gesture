@@ -35,13 +35,18 @@ subj_c <- cbind(syllable_c, pitchpro_c) %>%
 full_data <- rbind(subj_a, subj_b, subj_c)
 
 for (gest_i in 1:nrow(gesture_data)) {
+  found <- FALSE
   for (data_i in 1:nrow(full_data)) {
     gest_row <- gesture_data[gest_i,]
     data_row <- full_data[data_i,]
     if (gest_row$t1_ph >= data_row$start_time && gest_row$t2_ph <= data_row$end_time && gest_row$Subject == data_row$subject) {
       full_data[data_i,]$gesture <- 1
+      found <- TRUE
       break
     }
+  }
+  if (!found) {
+    print(gest_row)
   }
 }
 

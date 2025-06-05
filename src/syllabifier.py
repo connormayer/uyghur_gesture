@@ -81,23 +81,40 @@ def get_syllabifier():
         'r', 'z', 'Z', 's', 'S', 'f', 'N', 'l', 'm', 'n', 'h', "'",
         'y', 'w'
     ]
+    sim_onsets = ['q', 'G', 'C', 'j', 'x', 'r', 'z', 'Z', 's', 'S', 'N', 'l', 'm', 'n', 'h', "'", 'y', 'w']
+    comp_onsets = ['p', 'b', 'k', 'g', 'f'] 
+    comp_onsets_t = ['t', 'd']
 
     # Add your definition of the FST here
     deltas = ([('start', v, [v], 'vowel') for v in vowels] +
-              [('start', c, [c], 'onset') for c in consonants] +
+              [('start', c, [c], 'onset_sim') for c in sim_onsets] +
+              [('start', c, [c], 'onset_comp') for c in comp_onsets] +
+              [('start', c, [c], 'onset_comp_t') for c in comp_onsets_t] +
 
-              [('onset', v, [v], 'vowel') for v in vowels] +
+              [('onset_sim', v, [v], 'vowel') for v in vowels] +
+              [('onset_comp', v, [v], 'vowel') for v in vowels] +
+              [('onset_comp', c, [c], 'onset_sim') for c in ['l', 'r']] +
+              [('onset_comp_t', v, [v], 'vowel') for v in vowels] +
+              [('onset_comp_t', c, [c], 'onset_sim') for c in ['r']] +
 
-              [('vowel', c, ['.{}'.format(c)], 'onset') for c in consonants] +
+              [('vowel', c, ['.{}'.format(c)], 'onset_sim') for c in sim_onsets] +
+              [('vowel', c, ['.{}'.format(c)], 'onset_comp') for c in comp_onsets] +
+              [('vowel', c, ['.{}'.format(c)], 'onset_comp') for c in comp_onsets_t] +
+              
               [('vowel', c, [c], 'coda1') for c in consonants] +
               [('vowel', v, ['.{}'.format(v)], 'vowel') for v in vowels] +
               [('vowel', '-', ['.'], 'start')] +
 
               [('coda1', c, [c], 'coda2') for c in consonants] +
-              [('coda1', c, ['.{}'.format(c)], 'onset') for c in consonants] +
+              [('coda1', c, ['.{}'.format(c)], 'onset_sim') for c in sim_onsets] +
+              [('coda1', c, ['.{}'.format(c)], 'onset_comp') for c in comp_onsets] +
+               [('coda1', c, ['.{}'.format(c)], 'onset_comp_t') for c in comp_onsets_t] +
               [('coda1', '-', ['.'], 'start')] +
+              [('coda1', "'", ['.'], 'start')] +
 
-              [('coda2', c, ['.{}'.format(c)], 'onset') for c in consonants] +
+              [('coda2', c, ['.{}'.format(c)], 'onset_sim') for c in sim_onsets] +
+              [('coda2', c, ['.{}'.format(c)], 'onset_comp') for c in comp_onsets] +
+              [('coda2', c, ['.{}'.format(c)], 'onset_comp_t') for c in comp_onsets_t] +
               [('coda2', '-', ['.'], 'start')])
 
     uyghur_syllabifier = GenericAutomaton(
