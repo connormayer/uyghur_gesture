@@ -7,7 +7,8 @@ import os
 import re
 import time
 
-FST_PATH = "/mnt/e/git_repos/apertium-uig/dev/ortho/ara-lat.hfst"
+# FST_PATH = "/mnt/e/git_repos/apertium-uig/dev/ortho/ara-lat.hfst"
+FST_PATH = "/home/connor/git_repos/apertium-uig/dev/ortho/ara-lat.hfst"
 
 def load_transducer():
 	"""

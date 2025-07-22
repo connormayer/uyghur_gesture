@@ -54,7 +54,7 @@ for textgrid_file in textgrid_files:
 				# Convert interval text to Latin
 				interval.text = ara_to_lat.convert_word(transducer, interval.text)
 
-				if '?' in interval.text or interval.text == 'laughter':
+				if '?' in interval.text or interval.text in ('laughter', 'spn'):
 					continue
 
 				# Syllabify word
