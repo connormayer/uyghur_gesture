@@ -99,7 +99,7 @@ def get_syllabifier():
 
               [('vowel', c, ['.{}'.format(c)], 'onset_sim') for c in sim_onsets] +
               [('vowel', c, ['.{}'.format(c)], 'onset_comp') for c in comp_onsets] +
-              [('vowel', c, ['.{}'.format(c)], 'onset_comp') for c in comp_onsets_t] +
+              [('vowel', c, ['.{}'.format(c)], 'onset_comp_t') for c in comp_onsets_t] +
               
               [('vowel', c, [c], 'coda1') for c in consonants] +
               [('vowel', v, ['.{}'.format(v)], 'vowel') for v in vowels] +
