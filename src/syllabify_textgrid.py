@@ -24,10 +24,10 @@ def convert_ortho(word, reverse = False):
 
 textgrid_files = [
 	#"data/textgrids_to_syllabify/5004_5005_CONGEST_UYGHUR_INTERVIEW.TextGrid",
-	#'data/textgrids_to_syllabify/5006_5007_CONGEST_UYGHUR_INTERVIEW_INPUT1.TextGrid',
-	#"data/textgrids_to_syllabify/5006_5007_CONGEST_UYGHUR_INTERVIEW_INPUT2.TextGrid", # DONE
-	'data/textgrids_to_syllabify/5008_5009_CONGEST_UYGHUR_INTERVIEW_INPUT1.TextGrid',
-	#"data/textgrids_to_syllabify/5008_5009_CONGEST_UYGHUR_INTERVIEW_INPUT2.TextGrid",
+	'data/textgrids_to_syllabify/5006_5007_CONGEST_UYGHUR_INTERVIEW_INPUT1.TextGrid', # DONE
+	#"data/textgrids_to_syllabify/5006_5007_CONGEST_UYGHUR_INTERVIEW_INPUT2.TextGrid", 
+	#'data/textgrids_to_syllabify/5008_5009_CONGEST_UYGHUR_INTERVIEW_INPUT1.TextGrid',
+	# "data/textgrids_to_syllabify/5008_5009_CONGEST_UYGHUR_INTERVIEW_INPUT2.TextGrid", # DONE
 	#"data/textgrids_to_syllabify/uyghur_conversation.TextGrid", # DONE
 ]
 for textgrid_file in textgrid_files:
