@@ -38,8 +38,9 @@ def convert_sentence(transducer, sentence):
 	return ' '.join(parsed_words)
 
 if __name__ == "__main__":
-	data = pd.read_csv('uyghur_gesture_youtube.csv')
-	transducer = load_transducer(fst_path)
+	data = pd.read_csv('data/oovs.txt', header=None)
+	transducer = load_transducer()
+	breakpoint()
 	data['label_wd'] = data.label_wd.apply(lambda x: convert_word(transducer, x))
 	data['label_st'] = data.label_st.apply(lambda x: convert_sentence(transducer, x))
 	data.to_csv('uyghur_gesture_youtube_lat.csv')

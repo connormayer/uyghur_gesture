@@ -24,8 +24,8 @@ def convert_ortho(word, reverse = False):
 
 textgrid_files = [
 	#"data/textgrids_to_syllabify/5004_5005_CONGEST_UYGHUR_INTERVIEW.TextGrid",
-	'data/textgrids_to_syllabify/5006_5007_CONGEST_UYGHUR_INTERVIEW_INPUT1.TextGrid', # DONE
-	#"data/textgrids_to_syllabify/5006_5007_CONGEST_UYGHUR_INTERVIEW_INPUT2.TextGrid", 
+	#'data/textgrids_to_syllabify/5006_5007_CONGEST_UYGHUR_INTERVIEW_INPUT1.TextGrid', # DONE
+	"data/textgrids_to_syllabify/5006_5007_CONGEST_UYGHUR_INTERVIEW_INPUT2.TextGrid", 
 	#'data/textgrids_to_syllabify/5008_5009_CONGEST_UYGHUR_INTERVIEW_INPUT1.TextGrid',
 	# "data/textgrids_to_syllabify/5008_5009_CONGEST_UYGHUR_INTERVIEW_INPUT2.TextGrid", # DONE
 	#"data/textgrids_to_syllabify/uyghur_conversation.TextGrid", # DONE
@@ -42,9 +42,12 @@ for textgrid_file in textgrid_files:
 
 	for tier_name in textgrid.get_tier_names():
 		if 'words' in tier_name:
-			# prefix = tier_name.split('-')[0].strip()
-			# syl_tier = tgt.core.IntervalTier(name = '{} - syllables'.format(prefix))
-			syl_tier = tgt.core.IntervalTier(name = 'syllables')
+			if '-' in tier_name:
+				prefix = tier_name.split('-')[0].strip()
+				syl_tier = tgt.core.IntervalTier(name = '{} - syllables'.format(prefix))
+			else:
+				prefix = None
+				syl_tier = tgt.core.IntervalTier(name = 'syllables')
 			tier_pos = textgrid.get_tier_names().index(tier_name)
 			textgrid.insert_tier(syl_tier, tier_pos + 1)
 
@@ -70,9 +73,10 @@ for textgrid_file in textgrid_files:
 				interval.text = convert_ortho(
 					simple_syllabified, reverse = True
 				)
-
-				# phone_tier_name = '{} - phones'.format(prefix)
-				phone_tier_name = 'phones'
+				if prefix:
+					phone_tier_name = '{} - phones'.format(prefix)
+				else:
+					phone_tier_name = 'phones'
 				phone_tier = textgrid.get_tier_by_name(phone_tier_name)
 				phone_intervals = phone_tier.get_annotations_between_timepoints(
 					interval.start_time - 0.01, interval.end_time + 0.01
